@@ -1,6 +1,6 @@
 # EUI64Gen
 
-EUI64Gen is a Transformer decoder-based EUI-64 target generation algorithm. It not only achieves a higher hit rate in EUI-64 address detection compared to current state-of-the-art TGAs, but also has the capability to generate EUI-64 candidates for specific organizations, supporting targeted detection. 
+EUI64Gen is a Mixture-of-Experts model based on the Transformer Decoder, designed to generate EUI-64 addresses with a high probability of being active. It not only achieves a higher hit rate in EUI-64 address detection compared to current state-of-the-art TGAs, but also has the capability to generate EUI-64 candidates for specific organizations, supporting targeted detection. 
 
 ## Runtime environment
 
