@@ -345,7 +345,7 @@ if __name__ == '__main__':
     
     # Model training
     if args.no_train:
-        model.load_state_dict(torch.load(args.model_file), weights_only=True)  # load model parameters
+        model.load_state_dict(torch.load(args.model_file, weights_only=True))  # load model parameters
     else:
         train_model(model=model, seed_file=args.seed_file, model_file=args.model_file,
                 batch_size=args.batch_size, lr=args.learning_rate, epochs=args.epochs, 
